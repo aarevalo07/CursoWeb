@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #34495e;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #2c3e50;
+    padding: 15px;
+}
+
+nav a {
+    font-size: 1.4em;
+    text-decoration: none;
+    color: #ecf0f1;
+    margin: 15px;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+nav a:hover {
+    color: #bdc3c7;
+}
+
+.titulo {
+    color: #ecf0f1;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2em;
+}
+
+section {
+    min-height: 800px;
+    padding-bottom: 50px;
+}
+
+#accion, #animacion {
+    background-color: #7f8c8d;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.card-item {
+    width: 330px;
+    box-shadow: 5px 5px 10px black;
+    transition: 0.3s all;
+    cursor: pointer;
+
+    background-color: white;
+    text-align: center;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2em;
+}
+
+.card-item:hover {
+    box-shadow: 20px 20px 20px black;
+}
+
+.card-item img {
+    width: 100%;
+}
+
+.nombre {
+    padding: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background-color: #2c3e50;
+}

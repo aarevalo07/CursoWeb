@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>Clase 2</title>
+</head>
+<body>
+    <header class="header">
+
+        <div class="logo">
+            <img src="img/logo.png" alt="">
+        </div>
+
+        <nav class="nav">
+            <ul class="nav-list">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="smartphones.html">Smartphones</a></li>
+                <li><a href="laptops.html">Laptops</a></li>
+                <li><a href="wearables.html">Wearables</a></li>
+                <li><a href="drones.html">Drones</a></li>
+            </ul>
+
+            <div class="search">
+                <input type="text" placeholder="Buscar tecnología...">
+                <button><i class="fas fa-search"></i></button>
+            </div>
+        </nav>
+
+        <div class="menu-toggle">
+            <i class="fas fa-bars"></i>
+        </div>
+
+    </header>
+    <main>
+        <!-- Hero Banner -->
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Tecnología del Futuro, Hoy</h1>
+                <p>Descubre los dispositivos más innovadores del mercado con las últimas especificaciones y diseños
+                    revolucionarios</p>
+                <a href="#productos" class="btn">Ver Novedades</a>
+            </div>
+        </section>
+
+        <!-- Destacados -->
+        <section class="destacados">
+            <div class="contenedor">
+
+                <h2>Lo más vendido este mes</h2>
+                <div class="iconos-destacados">
+
+                    <div class="icono-item">
+                        <i class="fas fa-mobile-alt"></i>
+                        <p>Smartphones</p>
+                    </div>
+
+                    <div class="icono-item">
+                        <i class="fas fa-laptop"></i>
+                        <p>Laptops</p>
+                    </div>
+
+                    <div class="icono-item">
+                        <i class="fas fa-headphones"></i>
+                        <p>Audio</p>
+                    </div>
+
+                    <div class="icono-item">
+                        <i class="fas fa-camera"></i>
+                        <p>Fotografía</p>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Video Presentación -->
+        <section class="video-presentacion">
+            <div class="contenedor">
+                <h2>Innovación en tus manos</h2>
+                <div class="video-container">
+                    <iframe width="1236" height="695" src="https://www.youtube.com/embed/Fn3311WBG-o"
+                        title="15 AVANCES científicos y tecnológicos que veremos en 2025" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+
+        <!-- Llamado a la acción -->
+        <section class="cta">
+            <div class="contenedor">
+                <h3>¿Buscas algo específico?</h3>
+                <p>Nuestros expertos te ayudarán a encontrar el dispositivo perfecto para tus necesidades</p>
+                <a href="contacto.html" class="btn btn-outline">Contactar Asesor</a>
+            </div>
+        </section>
+
+        <section class="productos">
+
+
+            <h3 class="titulo">Productos Destacados</h3>
+            <div class="contenedor">
+
+
+                <div class="card-container">
+                    <!-- Producto 1 - Smartphone -->
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="img/iphone-15-pro.webp" alt="iPhone 15 Pro">
+                        </div>
+                        <div class="card-body">
+                            <h4>iPhone 15 Pro Max</h4>
+                            <p class="precio">$1,299 USD</p>
+                            <p class="especificacion">Pantalla 6.7", Chip A17 Pro</p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="#detalle" class="btn">Ver detalle</a>
+                        </div>
+                    </div>
+
+                    <!-- Producto 2 - Laptop -->
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="img/apple-macbook-air-m2.webp" alt="MacBook Air">
+                        </div>
+                        <div class="card-body">
+                            <h4>MacBook Air M2</h4>
+                            <p class="precio">$1,099 USD</p>
+                            <p class="especificacion">13.6", 8GB RAM, 256GB SSD</p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="#detalle" class="btn">Ver detalle</a>
+                        </div>
+                    </div>
+
+                    <!-- Producto 3 - Wearable -->
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="img/Apple-Watch-Ultra-2.webp" alt="Apple Watch Ultra">
+                        </div>
+                        <div class="card-body">
+                            <h4>Apple Watch Ultra 2</h4>
+                            <p class="precio">$799 USD</p>
+                            <p class="especificacion">Pantalla Retina, 36h batería</p>
+                            <p class="especificacion">Resistente 100m</p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="#detalle" class="btn">Ver detalle</a>
+                        </div>
+                    </div>
+
+                    <!-- Producto 4 - Drone -->
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="img/dji-mavic-3-pro.jpg" alt="DJI Mavic 3">
+                        </div>
+                        <div class="card-body">
+                            <h4>DJI Mavic 3 Pro</h4>
+                            <p class="precio">$2,199 USD</p>
+                            <p class="especificacion">Cámara Hasselblad 4/3"</p>
+                            <p class="especificacion">43 min vuelo, 15km alcance</p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="#detalle" class="btn">Ver detalle</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div>
+            <img src="img/logo.png" alt="" width="200">
+            <p>TecnoTop - Tecnología de vanguardia</p>
+            <p>arsistema</p>
+        </div>
+        <div>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+    </footer>
+    <script>
+        document.querySelector('.menu-toggle').addEventListener('click', function () {
+            document.querySelector('.nav').classList.toggle('show');
+        });
+    </script>
+</body>
+</html>

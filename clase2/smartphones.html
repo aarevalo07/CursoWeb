@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TecnoTop - Los mejores smartphones del mercado</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="img/logo.png" width="250" alt="TecnoTop">
+        </div>
+        <nav class="nav">
+            <ul class="nav-list">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="smartphones.html">Smartphones</a></li>
+                <li><a href="laptops.html">Laptops</a></li>
+                <li><a href="wearables.html">Wearables</a></li>
+                <li><a href="drones.html">Drones</a></li>
+            </ul>
+            <div class="search">
+                <input type="text" placeholder="Buscar tecnología...">
+                <button><i class="fas fa-search"></i></button>
+            </div>
+        </nav>
+        <div class="menu-toggle">
+            <i class="fas fa-bars"></i>
+        </div>
+    </header>
+
+    <main>
+        <h1 class="titulo">Smartphones</h1>
+    </main>
+
+    <footer>
+        <div>
+            <img src="img/logo.png" alt="" width="200">
+            <p>TecnoTop - Tecnología de vanguardia</p>
+            <p>arsistema</p>
+        </div>
+        <div>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+    </footer>
+
+    <script>
+        document.querySelector('.menu-toggle').addEventListener('click', function () {
+            document.querySelector('.nav').classList.toggle('show');
+        });
+    </script>
+</body>
+
+</html>

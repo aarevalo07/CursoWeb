@@ -1,0 +1,43 @@
+/*Dispositivos extra pequeños (teléfonos, 576px px y menos) */
+@media only screen and (max-width: 576px) {
+	header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        padding: 15px;
+    }
+
+    nav a {
+        font-size: 1em;
+        margin: 5px;
+        font-family: Tahoma, Geneva, Verdana, sans-serif;
+    }
+}	
+
+/*Dispositivos pequeños (tabletas verticales y teléfonos grandes, 576px px y más)*/
+@media only screen and (min-width: 576px) {
+             
+}  
+
+/*Dispositivos medianos (tabletas horizontales, 768 px y más)*/
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Dispositivos grandes (computadoras portátiles/de escritorio, 992 px y más) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Dispositivos extragrandes (portátiles y equipos de escritorio grandes, 1200 px y más)*/
+@media only screen and (min-width: 1200px) {
+
+}
+
+/* Dispositivos extragrandes (portátiles y equipos de escritorio grandes, 1400px px y más)*/
+@media only screen and (min-width: 1400px) {
+
+
+}
